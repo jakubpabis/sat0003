@@ -1,0 +1,88 @@
+// 
+// user.scss
+// Use this to write your custom SCSS
+//
+
+@font-face {
+    font-family: "HKGroteskPro";
+    font-weight: 100;
+    src: url("#{$path-to-fonts}/HK%20Grotesk%20Pro/HKGroteskPro-Hairline.woff2") format("woff2"),
+    url("#{$path-to-fonts}/HK%20Grotesk%20Pro/HKGroteskPro-Hairline.woff") format("woff");
+}
+
+@font-face {
+    font-family: "HKGroteskPro";
+    font-weight: 300;
+    src: url("#{$path-to-fonts}/HK%20Grotesk%20Pro/HKGroteskPro-Light.woff2") format("woff2"),
+    url("#{$path-to-fonts}/HK%20Grotesk%20Pro/HKGroteskPro-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "HKGroteskPro";
+    font-weight: 700;
+    src: url("#{$path-to-fonts}/HK%20Grotesk%20Pro/HKGroteskPro-SemiBold.woff2") format("woff2"),
+    url("#{$path-to-fonts}/HK%20Grotesk%20Pro/HKGroteskPro-SemiBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "HKGroteskPro";
+    font-weight: 900;
+    src: url("#{$path-to-fonts}/HK%20Grotesk%20Pro/HKGroteskPro-Bold.woff2") format("woff2"),
+    url("#{$path-to-fonts}/HK%20Grotesk%20Pro/HKGroteskPro-Bold.woff") format("woff");
+}
+
+.container, 
+.container-sm, 
+.container-md, 
+.container-lg, 
+.container-xl {
+
+    @media (min-width: 1200px) {
+        max-width: 1140px;
+    }
+
+}
+
+.whole-element-link {
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9;
+}
+
+.bg-gray-100 {
+    background-color: $gray-100 !important;
+}
+
+.bg-gray-400 {
+    background-color: $gray-400 !important;
+}
+
+.bg-gray-500 {
+    background-color: $gray-500 !important;
+}
+
+.bg-gray-600 {
+    background-color: $gray-600 !important;
+}
+
+.bg-gray-700 {
+    background-color: $gray-700 !important;
+}
+
+.navbar-brand-img {
+    min-width: 7.5rem;
+    margin-bottom: 0.6rem;
+}
+
+.navbar-dark.fixed-top > .container::after {
+    left: 10px;
+    right: 10px;
+}
+
+.footer-brand {
+    max-width: 7.5rem;
+}
