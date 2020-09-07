@@ -6,50 +6,50 @@
     </head>
     <body>
 
-        <!-- MODALS
-        ================================================== -->
-        @@include("partials/modals.html")
+    <!-- MODALS
+    ================================================== -->
+    @@include("partials/modals.html")
 
-        <!-- NAVBAR
-        ================================================== -->
-        @@include("partials/navbar.html", {
-            "classList": "navbar-dark navbar-togglable fixed-top",
-            "container": "container"
-        })
+    <!-- NAVBAR
+    ================================================== -->
+    @@include("partials/navbar.html", {
+        "classList": "navbar-dark navbar-togglable fixed-top",
+        "container": "container"
+    })
 
-        <!-- WELCOME
-        ================================================== -->
-        <section class="overlay overlay-primary overlay-40" data-jarallax data-speed=".6" style="background-image: url(assets/img/sative/photos/headway-jfR5wu2hMI0-unsplash.jpg)">
-            <div class="container d-flex flex-column">
-                <div class="row align-items-center justify-content-center min-vh-100 py-8 py-md-11">
-                    <div class="col-12 col-md-8 mt-auto text-center">
+    <!-- WELCOME
+    ================================================== -->
+    <section class="overlay overlay-primary overlay-40" data-jarallax data-speed=".6" style="background-image: url(assets/img/sative/photos/headway-jfR5wu2hMI0-unsplash.jpg)">
+        <div class="container d-flex flex-column">
+            <div class="row align-items-center justify-content-center min-vh-100 py-8 py-md-11">
+                <div class="col-12 col-md-8 mt-auto text-center">
+        
+                    <!-- Heading -->
+                    <p class="display-3 font-weight-light text-white mb-0">
+                        We work,
+                    </p>
+                    <p class="display-1 text-white mt-0">
+                        <span class="font-weight-light">You</span> <span class="text-primary-desat font-weight-bolder" data-toggle="typed" data-speed="10000" data-options='{"strings": ["grow", "benefit", "expand", "thrive", "rest"]}'></span>
+                    </p>
             
-                        <!-- Heading -->
-                        <p class="display-3 font-weight-light text-white mb-0">
-                            We work,
-                        </p>
-                        <p class="display-1 text-white mt-0">
-                            <span class="font-weight-light">You</span> <span class="text-primary-desat font-weight-bolder" data-toggle="typed" data-speed="10000" data-options='{"strings": ["grow", "benefit", "expand", "thrive", "rest"]}'></span>
-                        </p>
-                
-                    </div>
-                    <div class="col-12 mt-auto text-center">
-            
-                        <!-- Button -->
-                        <a class="btn btn-white btn-rounded-circle shadow" data-toggle="smooth-scroll" data-offset="0" href="#about">
-                            <i class="fe fe-arrow-down"></i>
-                        </a>
-            
-                    </div>
-                </div> <!-- / .row -->
-            </div> <!-- / .container -->
-        </section>
+                </div>
+                <div class="col-12 mt-auto text-center">
+        
+                    <!-- Button -->
+                    <a class="btn btn-white btn-rounded-circle shadow" data-toggle="smooth-scroll" data-offset="0" href="#about">
+                        <i class="fe fe-arrow-down"></i>
+                    </a>
+        
+                </div>
+            </div> <!-- / .row -->
+        </div> <!-- / .container -->
+    </section>
 
-        <div class="position-relative">
-            <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
-                @@include("assets/img/shapes/curves/curve-1.svg")
-            </div>
+    <div class="position-relative">
+        <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
+            @@include("assets/img/shapes/curves/curve-1.svg")
         </div>
+    </div>
 
     <!-- ABOUT
     ================================================== -->
@@ -265,7 +265,7 @@
         </div>
     </div>
 
-    <section class="pt-8 pt-md-10 pb-lg-8 bg-gray-100" id="about">
+    <section class="pt-8 pt-md-10 pb-lg-8 bg-gray-100">
         <div class="container mt-n6">
           <div class="row justify-content-center">
             <div class="col-12 col-md-10 col-lg-8 text-center">
@@ -590,7 +590,7 @@
 
     <!-- TESTIMONIALS
     ================================================== -->
-    <section class="pt-10 pt-md-12">
+    <section class="pt-10 pt-md-12 mb-12">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-10 col-lg-8 text-center">
@@ -611,22 +611,22 @@
           <div class="col-12">
 
             <!-- Card -->
-            <div class="card card-row shadow-light-lg mb-6" data-aos-delay="100" data-aos="fade-up">
+            <div class="card card-row shadow-light-lg" data-aos-delay="100" data-aos="fade-up">
               <div class="row no-gutters">
                 <div class="col-12 col-md-6">
 
                   <!-- Slider -->
                   <div class="card-img-slider" data-flickity='{"fade": true, "imagesLoaded": true, "pageDots": false, "prevNextButtons": false, "asNavFor": "#blogSlider", "draggable": false}'>
-                    <a class="card-img-left bg-cover" style="background-image: url(assets/img/photos/photo-1.jpg);" href="#!">
+                    <a class="card-img-left bg-cover" style="background-image: url(assets/img/photos/photo-2.jpg);" href="#!">
 
                       <!-- Image (placeholder) -->
-                      <img src="assets/img/photos/photo-1.jpg" alt="..." class="img-fluid d-md-none invisible">
+                      <img src="assets/img/photos/photo-2.jpg" alt="..." class="img-fluid d-md-none invisible">
 
                     </a>
-                    <a class="card-img-left bg-cover" style="background-image: url(assets/img/photos/photo-26.jpg);" href="#!">
+                    <a class="card-img-left bg-cover" style="background-image: url(assets/img/photos/photo-2.jpg);" href="#!">
 
                       <!-- Image (placeholder) -->
-                      <img src="assets/img/photos/photo-26.jpg" alt="..." class="img-fluid d-md-none invisible">
+                      <img src="assets/img/photos/photo-2.jpg" alt="..." class="img-fluid d-md-none invisible">
 
                     </a>
                   </div>
@@ -640,7 +640,7 @@
                 <div class="col-12 col-md-6 position-md-static">
 
                   <!-- Slider -->
-                  <div class="position-md-static" data-flickity='{"wrapAround": true, "pageDots": false, "adaptiveHeight": true}' id="blogSlider">
+                  <div class="position-md-static" data-flickity='{"wrapAround": true, "pageDots": false, "adaptiveHeight": true, "autoPlay": 4000}' id="blogSlider">
                     <div class="w-100">
 
                       <!-- Body -->
@@ -715,7 +715,6 @@
         </div> <!-- / .row -->
       </div> <!-- / .container -->
     </section>
-    
 
     <!-- FOOTER
     ================================================== -->
