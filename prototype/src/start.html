@@ -278,7 +278,7 @@
               <!-- Text -->
               <p class="font-size-lg text-muted mb-10" data-aos-delay="100" data-aos="fade-up">
                 Feel free to browse through latest projects.<br/>
-                We hope you will love as much as our clients do!
+                We hope you will love them as much as our clients do!
               </p>
               
             </div>
@@ -590,7 +590,7 @@
 
     <!-- TESTIMONIALS
     ================================================== -->
-    <section class="pt-10 pt-md-12 mb-12">
+    <section class="position-relative pt-10 pt-md-12 mb-12">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-10 col-lg-8 text-center">
@@ -611,25 +611,26 @@
           <div class="col-12">
 
             <!-- Card -->
-            <div class="card card-row shadow-light-lg" data-aos-delay="100" data-aos="fade-up">
+            <div class="card card-row shadow-light-lg">
               <div class="row no-gutters">
                 <div class="col-12 col-md-6">
 
                   <!-- Slider -->
-                  <div class="card-img-slider" data-flickity='{"fade": true, "imagesLoaded": true, "pageDots": false, "prevNextButtons": false, "asNavFor": "#blogSlider", "draggable": false}'>
-                    <a class="card-img-left bg-cover" style="background-image: url(assets/img/photos/photo-2.jpg);" href="#!">
+                  <div class="card-img-slider bottom-0 top-0 left-0 right-0 position-absolute" data-flickity='{"fade": true, "imagesLoaded": true, "pageDots": false, "prevNextButtons": false, "asNavFor": "#testimonialSlider", "draggable": false}'>
+                    <a class="card-img-left bg-cover" style="background-image: url(assets/img/sative/photos/searchx-ernst.jpg);" href="#!">
 
                       <!-- Image (placeholder) -->
-                      <img src="assets/img/photos/photo-2.jpg" alt="..." class="img-fluid d-md-none invisible">
+                      <img src="assets/img/sative/photos/searchx-ernst.jpg" alt="..." class="img-fluid d-md-none invisible">
 
                     </a>
-                    <a class="card-img-left bg-cover" style="background-image: url(assets/img/photos/photo-2.jpg);" href="#!">
+                    <a class="card-img-left bg-cover" style="background-image: url(assets/img/sative/photos/azgour.png);" href="#!">
 
                       <!-- Image (placeholder) -->
-                      <img src="assets/img/photos/photo-2.jpg" alt="..." class="img-fluid d-md-none invisible">
+                      <img src="assets/img/sative/photos/azgour.png" alt="..." class="img-fluid d-md-none invisible">
 
                     </a>
                   </div>
+
 
                   <!-- Shape -->
                   <div class="shape shape-right shape-fluid-y svg-shim text-white d-none d-md-block">
@@ -640,11 +641,11 @@
                 <div class="col-12 col-md-6 position-md-static">
 
                   <!-- Slider -->
-                  <div class="position-md-static" data-flickity='{"wrapAround": true, "pageDots": false, "adaptiveHeight": true, "autoPlay": 4000}' id="blogSlider">
+                  <div class="position-md-static" data-flickity='{"wrapAround": true, "pageDots": false, "adaptiveHeight": true, "autoPlay": 6000}' id="testimonialSlider">
                     <div class="w-100">
 
                       <!-- Body -->
-                      <div class="card-body">
+                      <div class="card-body pl-6 pr-9">
                         <blockquote class="blockquote text-center mb-0">
 
                           <!-- Brand -->
@@ -652,8 +653,8 @@
                             <div class="col-6 col-sm-4 col-md-7 col-lg-5">
 
                               <!-- Logo -->
-                              <div class="img-fluid svg-shim" style="color: #FF5A5F;">
-                                @@include("assets/img/brands/logotype/airbnb.svg")
+                              <div class="img-fluid svg-shim">
+                                @@include("assets/img/sative/photos/searchx-logo-dog.svg")
                               </div>
 
                             </div>
@@ -666,7 +667,8 @@
 
                           <!-- Footer -->
                           <footer class="blockquote-footer">
-                            <span class="h6 text-uppercase">Dave Gamache</span>
+                            <span class="h5 d-block mb-1">Ernst Jan Berger</span>
+                            <span class="h6 d-block">CEO & Founder</span>
                           </footer>
 
                         </blockquote>
@@ -676,7 +678,7 @@
                     <div class="w-100">
 
                       <!-- Body -->
-                      <div class="card-body">
+                      <div class="card-body pl-6 pr-9">
                         <blockquote class="blockquote text-center mb-0">
 
                           <!-- Brand -->
@@ -684,8 +686,8 @@
                             <div class="col-6 col-sm-4 col-md-7 col-lg-5">
 
                               <!-- Logo -->
-                              <div class="img-fluid svg-shim" style="color: #3F5D87;">
-                                @@include("assets/img/brands/logotype/instagram.svg")
+                              <div class="img-fluid svg-shim">
+                                @@include("assets/img/sative/photos/azgour.svg")
                               </div>
 
                             </div>
@@ -698,7 +700,8 @@
 
                           <!-- Footer -->
                           <footer class="blockquote-footer">
-                            <span class="h6 text-uppercase">Russ D'Sa</span>
+                            <span class="h5 d-block mb-1">Michael Azgour</span>
+                            <span class="h6 d-block">Painter, Artist</span>
                           </footer>
 
                         </blockquote>
@@ -720,7 +723,7 @@
     ================================================== -->
     @@include("partials/footer.html", {
         "classList": "bg-dark",
-        "footerClass" : "text-dark",
+        "footerClass" : "text-dark"
     })
 
     <!-- JAVASCRIPT
